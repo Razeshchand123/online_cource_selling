@@ -1,0 +1,155 @@
+*{
+     /* color:#0099ff ;  */
+   
+}
+body{
+    background-color:#ecf9ea;
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+.home-description{
+
+    text-align: justify;
+}
+.home-description1{
+    direction: ltr;
+    text-align: justify;
+}
+.text-outer{
+    box-shadow: 0px 2px 9px 3px grey;
+    padding: 5%;
+    margin: 2%;
+}
+
+.home_heading{
+    /* font-variant: small-caps; */
+    text-transform: capitalize;
+    /* font-size:1.5em; */
+    /* font-weight: bold; */
+    color:black;
+    /* text-shadow: 1px 1px 2px black; */
+    letter-spacing: 1px;
+}
+.topbutton{
+    position:fixed;
+    right:0.75%;
+    bottom:2%;
+    border:1px solid blue;
+    padding:0.75%;
+    border-radius:50%;
+    color:blue;
+    transition:1s;
+}
+.topbutton:hover{
+    background-color:#0099ff;
+    border:1px solid red;
+}
+.topbutton:hover.topbutton>a{
+    color:white;
+    text-decoration: none;
+}
+
+.contact_detail{
+  float: right;
+}
+.pricetext{
+    color:blue;
+    font-size: 95%;
+}
+.contact_key{
+          text-transform: uppercase;
+          font-variant:small-caps;
+}
+.tcolor{color:#146b04;}
+.tlcolor{color:#2cf808;}
+.card-body::first-letter{
+    color:#2cf808;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size:3em;
+}
+.card-body>ul>li{
+    padding:0 2% 0 2%;
+    text-decoration-style: double;
+    text-decoration-color: red;
+    color:#0099ff;
+}
+.slide_home{
+  
+    /* background-color: #0099ff; */
+    width: 96%;
+    justify-content: space-around;
+   
+}
+.slide_home>a{
+    color:#146b04;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition:all 1s; 
+    text-decoration: none;
+}
+.slide_home>a:hover{
+    
+color:black;
+border-bottom: 1px solid #146b04;
+border-top: 1px solid #146b04;
+
+   
+
+}
+.hidediv{
+    background-color: red;
+}
+#postimg{
+    display:none;
+}
+#labeforsetprofile{
+    cursor: pointer;
+    border:1px solid blue;
+  background-color:#2bff05;
+   padding: 1%;
+}
+#imgspan{
+display: inline-block;
+
+
+}
+.text-capitalization {
+    text-transform: capitalize;
+}
+
+.fa-7x{
+    transition: 1s;
+    color:white;
+    text-shadow: 3px -4px 6px black;
+}
+.fa-7x:hover{
+    text-shadow:3px 1px 3px red;
+}
+.home-description{color:rgba(0, 0, 0, 0.7);}
+.home-description:hover{
+    text-decoration: none;
+}
+
+
+.label{
+    border:1px solid blue;
+}
+
+.clip{
+    height: 45px;
+    background-color:blue;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 2px 3px;
+}
+
+
+
+
+
+
